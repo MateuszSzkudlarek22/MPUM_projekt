@@ -151,8 +151,8 @@ def load_data(base_folder, val_size = 0.2, test_size = 0.2, safe=False):
                            if f.lower().endswith(('.png', '.jpg', '.jpeg'))]
             count = 0
             for img_file in image_files:
-                if count >800:
-                    break
+                #if count >800:
+                #    break
                 count += 1
                 print(count)
                 # Pełen zbiór jest dość duży, jego wczytywanie trwa bardzo długo, na potrzeby testów
